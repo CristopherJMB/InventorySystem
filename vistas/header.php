@@ -47,15 +47,15 @@
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <img src="../public/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                  <span class="hidden-xs">Juan Carlos Arcila</span>
+                  <span class="hidden-xs">Ing. Galo Viteri</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
                     <img src="../public/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     <p>
-                      www.incanatoit.com - Desarrollando Software
-                      <small>www.youtube.com/jcarlosad7</small>
+                      www.iess.com - Planificación
+                      <small>www.youtube.com/iess</small>
                     </p>
                   </li>
 
@@ -89,7 +89,7 @@
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-laptop"></i>
-                <span>Almacén</span>
+                <span>Bodega</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
@@ -101,23 +101,23 @@
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-th"></i>
-                <span>Compras</span>
+                <span>Adquisiciones</span>
                  <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="ingreso.php"><i class="fa fa-circle-o"></i> Ingresos</a></li>
+                <li><a href="ingreso.php"><i class="fa fa-circle-o"></i> Nuevo Ingreso</a></li>
                 <li><a href="proveedor.php"><i class="fa fa-circle-o"></i> Proveedores</a></li>
               </ul>
             </li>
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-shopping-cart"></i>
-                <span>Ventas</span>
+                <span>Entregas</span>
                  <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="venta.php"><i class="fa fa-circle-o"></i> Ventas</a></li>
-                <li><a href="cliente.php"><i class="fa fa-circle-o"></i> Clientes</a></li>
+                <li><a href="venta.php"><i class="fa fa-circle-o"></i> Entregas</a></li>
+                <li><a href="cliente.php"><i class="fa fa-circle-o"></i> Distribución</a></li>
               </ul>
             </li>
             <li class="treeview">
@@ -142,11 +142,11 @@
             </li>
             <li class="treeview">
               <a href="#">
-                <i class="fa fa-bar-chart"></i> <span>Consulta Ventas</span>
+                <i class="fa fa-bar-chart"></i> <span>Consulta Distribución</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="consultaventas.php"><i class="fa fa-circle-o"></i> Consulta Ventas</a></li>
+                <li><a href="consultaventas.php"><i class="fa fa-circle-o"></i> Consulta Distribución</a></li>
               </ul>
             </li>
             <li>
