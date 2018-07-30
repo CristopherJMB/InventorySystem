@@ -5,7 +5,7 @@ require "../config/Conexion.php";
 Class categoria
 {
   //Implementamos el constructor
-  public function_construct()
+  public function __construct()
   {
 
   }

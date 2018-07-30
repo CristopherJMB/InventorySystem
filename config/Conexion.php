@@ -42,4 +42,4 @@ if (!function_exists('ejecutarConsulta'))
     return htmlspecialchars($str);
   }
 }
- ?>
+?>
