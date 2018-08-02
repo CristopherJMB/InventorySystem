@@ -2,7 +2,7 @@
 // Incluimos la conexión a la base de datos
 require "../config/Conexion.php";
 
-Class categoria
+Class Categoria
 {
   //Implementamos el constructor
   public function __construct()
@@ -13,7 +13,7 @@ Class categoria
   //Implementamos método para ingresar
   public function insetar($nombre,$descripcion)
   {
-    $sql = "INSERT INTO categoria(nombre,descripcion,condicion)
+    $sql = "INSERT INTO categoria (nombre,descripcion,condicion)
     VALUES ('$nombre','$descripcion','1')";
     return ejecutarConsulta($sql);
   }

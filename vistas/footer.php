@@ -11,7 +11,7 @@
     <!-- AdminLTE App -->
     <script src="../public/js/app.min.js"></script>
 
-    <!-- Librerias Datatables-->
+    <!-- Librerias .js Datatables-->
     <script type="text/javascript" src="../public/datatables/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="../public/datatables/dataTables.buttons.min.js"></script>
     <script type="text/javascript" src="../public/datatables/buttons.html5.min.js"></script>

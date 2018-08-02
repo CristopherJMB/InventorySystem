@@ -16,7 +16,7 @@ require 'header.php';
                     </div>
                     <!-- /.box-header -->
                     <!-- centro -->
-                    <div class="panel-body table-responsive"   id="listadoregistros">
+                    <div class="panel-body table-responsive" id="listadoregistros">
                     <table id="tbllistado" class="table table-striped table-bordered table-condensed table-hover">
                       <thead>
                         <th>Opciones</th>
@@ -35,7 +35,7 @@ require 'header.php';
                     </table>
                     </div>
 
-                    <div class="panel-body" style="height: 400px;" id="formularioregistros">
+                    <div class="panel-body" style="height:400px;" id="formularioregistros">
                       <form name="formulario" id="formulario" method="post">
 
                         <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -51,7 +51,7 @@ require 'header.php';
 
                         <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
                           <button class="btn btn-primary" type="submit" id="btnGuardar"> <i class="fa fa-save"></i> Guardar </button>
-                          <button class="btn btn-danger" onclick="cancelarForm ()" type="button"> <i class="fa fa-arrow-circle-left"></i> Cancelar </button>
+                          <button class="btn btn-danger" onclick="cancelarForm()" type="button"> <i class="fa fa-arrow-circle-left"></i> Cancelar </button>
                         </div>
 
                       </form>

@@ -5,7 +5,7 @@ function init(){
   mostrarForm(false);
   listar();
 
-  $(#formulario).on("submit",function(e){
+  $("#formulario").on("submit",function(e){
     guardaryeditar(e);
   })
 }
@@ -38,17 +38,17 @@ function cancelarForm(){
 
 //Función listar (Enviajara la peteción ajax, al archivo categoria.php y le envie un valor al objeto pop)
 function listar(){
-  tabla=$('#tbllistado').dataTable({
+  tabla=$('#tbllistado').dataTable(
+    {
     "aProcessing" : true, //Activamos el procesamiento del datatable
     "aServerSide" : true, //Paginación y filtración por el servidor
-    dom : 'Bfrtip', //definimos los elementos por el control de la tabla que vamos a mostrar
+    dom: 'Bfrtip', //definimos los elementos por el control de la tabla que vamos a mostrar
     buttons:[
             'copyHtml5',
             'excelHtml5',
             'csvHtml5',
             'pdf'
           ],
-
     "ajax":
     {
       url:'../ajax/categoria.php?op=listar',
@@ -58,12 +58,11 @@ function listar(){
         console.log(e.responseText);
       }
     },
-    "bDestroy":true,
-    "iDisplayLength":5, //Paginación cada 5 registros
+    "bDestroy": true,
+    "iDisplayLength": 5, //Paginación cada 5 registros
     "order":[[ 0,"desc" ]] //Lo ordeno de forma descendente
 
   }).DataTable();
-
 }
 
 //Función para guardar o editar
@@ -86,7 +85,6 @@ function guardaryeditar(e)
       mostrarform(false);
       tabla.ajax.reload();
     }
-
   });
   limpiar();
 }
