@@ -11,7 +11,7 @@ Class Categoria
   }
 
   //Implementamos método para ingresar
-  public function insetar($nombre,$descripcion)
+  public function insertar($nombre,$descripcion)
   {
     $sql = "INSERT INTO categoria (nombre,descripcion,condicion)
     VALUES ('$nombre','$descripcion','1')";
